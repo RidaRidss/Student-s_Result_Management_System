@@ -2,38 +2,33 @@
 <html>
 <head>
     <title>University Student_Registration|Main Page</title>
+    <link href="css/app.css" type="text/css" rel="stylesheet"/>  
+     <script src="app.js"></script>
 </head>
-<body>
+<body class="center">
 <h1 style="font-size:50px; text-align:  center; color: blanchedalmond; " >University Student Registration</h1>
 <button class="btn btn-2 btn-2i add"  value="Add Student" onclick="show()">Add Student</button>
 <br>
 <br>
 
 
-<div id="form" style="margin-left: 5%;">
+<div id="form"  style="margin-left: 5%;align:center">
     <strong>
-        Name:<input onFocus="this.style.backgroundColor='gold';" onBlur="this.style.backgroundColor='cyan';" type="text" id="n"  ><br/>
-        Age &nbsp :<input onFocus="this.style.backgroundColor='gold';" onBlur="this.style.backgroundColor='cyan';" type="text" id="a" >
-        <button class="btn btn-2 btn-2e" value="Save" onclick="show2()">Save</button>
+Name:<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="n"  >
+Age &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="a" ><br/><hr/>
+Net Marks &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="N" ><br/><br/>
+D.C Marks &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="D" ><br/><br/>
+A.I Marks &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="AI" ><br/><br/>
+Java Marks &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="J" ><br/><br/>
+Compiler Marks &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="CC" ><br/><br/>
+S.E Marks &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="SE" ><br/><br/>
+C.G Marks &nbsp :<input onFocus="this.style.backgroundColor='lightgreen';" onBlur="this.style.backgroundColor='lightblue';" type="text" id="CG" ><br/><br/>
+ <button class="btn btn-2 btn-2e" value="Save" onclick="show2()">Save</button>
     </strong>
 </div>
 <h2>
     <br>
     <div id="studentdiv" style="float: right;margin-right: 5%;">
-        <table id="student" >
-            <thead> <th>
-                Name
-            </th>
-            <th>
-                Age
-            </th>
-            <th>
-                sr#
-            </th></thead>
-
-        </table>
-    </div>
-</h2>
-</body>
+        <table id="student" ><thead><th>sr#</th><th>Name</th><th>Age</th><th>Net Marks</th><th>D.C Marks</th><th>A.I Marks</th><th>Java Marks</th><th>Compiler Marks</th><th>S.E Marks</th><th>C.G</th></table></div></h2></body>
 </html>
 

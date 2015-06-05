@@ -1,0 +1,105 @@
+body{background: blanchedalmond url("../images/student.jpg") repeat-x;}
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+
+h1{font-size:50px; text-align:  center; color: blanchedalmond; }
+
+th, td {
+    padding: 7px 10px 10px 10px;}
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+    background-color: #cb4e4e;
+}
+tr:hover {
+    background-color: #c3e6e5;}
+#form{
+    font-weight: lighter;
+    font-family: cursive sans-serif;
+}
+
+#studentdiv,#form {
+    display: none;
+}
+/* General button style (reset) */
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 2 */
+.btn-2 {
+    background: #cb4e4e;
+    color: #fff;
+    box-shadow: 0 6px #ab3c3c;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+/* Button 2e */
+.btn-2e {
+    border-radius: 5px;
+    box-shadow: -6px 0 #ab3c3c;
+}
+
+.btn-2e:hover {
+    box-shadow: -4px 0 #ab3c3c;
+    left: -2px;
+}
+
+.btn-2e:active {
+    box-shadow: 0 0 #ab3c3c;
+    left: -6px;
+}
+
+/* Button 2i */
+.btn-2i {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 0;
+}
+
+.btn-2i:hover {
+    box-shadow: 0 4px #ab3c3c;
+    top: 2px;
+}
+
+.btn-2i:active {
+    box-shadow: 0 0 #ab3c3c;
+    top: 6px;
+}
+
+.add{
+    margin-top:5%;
+    margin-left:25%;
+}
