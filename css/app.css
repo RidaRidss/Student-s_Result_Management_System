@@ -1,4 +1,4 @@
-body{background: blanchedalmond url("../images/student.jpg") repeat-x;}
+/*body{background: blanchedalmond url("../images/student.jpg") repeat-x;}*/
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 
@@ -15,13 +15,13 @@ th {
     text-align: left;
     background-color: #cb4e4e;
 }
-tr:hover {
-    background-color: #c3e6e5;}
+/*tr:hover {
+    background-color: #c3e6e5;}*/
 #form{
     font-weight: lighter;
     font-family: cursive sans-serif;
 }
-
+.none{background-color: white;}
 #studentdiv,#form {
     display: none;
 }

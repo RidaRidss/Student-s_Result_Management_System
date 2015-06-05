@@ -1,7 +1,7 @@
 var sno = 0;
-var a;
-function show() { a = document.getElementById("form"); a.style.display = "Block"; }
+//function show (){  a=document.getElementById("form");    a.style.display="Block"}
 function show2() {
+    var a;
     var tableData = [];
     var table;
     sno += 1;
@@ -9,7 +9,7 @@ function show2() {
     a.style.display = "Block";
     //name= document.getElementById('n').nodeValue;
     //age  = document.getElementById('a').nodeValue;
-    tableData = [document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td")];
+    tableData = [document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td"), document.createElement("td")];
     var tableRow = document.createElement('tr');
     table = document.getElementById("student");
     table.appendChild(tableRow);
@@ -21,8 +21,6 @@ function show2() {
     tableRow.appendChild(tableData[5]);
     tableRow.appendChild(tableData[6]);
     tableRow.appendChild(tableData[7]);
-    tableRow.appendChild(tableData[8]);
-    tableRow.appendChild(tableData[9]);
     tableData[0].innerHTML = sno;
     tableData[1].innerHTML = document.getElementById('n').value;
     tableData[2].innerHTML = Number(document.getElementById('a').value);
@@ -30,9 +28,9 @@ function show2() {
     tableData[4].innerHTML = Number(document.getElementById('D').value);
     tableData[5].innerHTML = Number(document.getElementById('AI').value);
     tableData[6].innerHTML = Number(document.getElementById('J').value);
-    tableData[7].innerHTML = Number(document.getElementById('CC').value);
-    tableData[8].innerHTML = Number(document.getElementById('SE').value);
-    tableData[9].innerHTML = Number(document.getElementById('CG').value);
+    var per = [Number(document.getElementById('N').value) + Number(document.getElementById('D').value) + Number(document.getElementById('AI').value) + Number(document.getElementById('J').value)] / 400;
+    per = per * 100;
+    tableData[7].innerHTML = per + "%";
 }
 //    sno+=1;
 //    a=document.getElementById("studentdiv");
