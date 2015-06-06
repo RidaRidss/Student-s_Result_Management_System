@@ -22,7 +22,7 @@ th {
     font-weight: lighter;
     font-family: cursive sans-serif;
 }
-.none{background-color: white;}
+.none{background-color: black;}
 #studentdiv,#form {
     display: none;
 }
