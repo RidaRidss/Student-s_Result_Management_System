@@ -22,13 +22,13 @@ function show2() {
     tableRow.appendChild(tableData[6]);
     tableRow.appendChild(tableData[7]);
     tableData[0].innerHTML = sno;
-    tableData[1].innerHTML = document.getElementById('n').value;
-    tableData[2].innerHTML = Number(document.getElementById('a').value);
-    tableData[3].innerHTML = Number(document.getElementById('N').value);
-    tableData[4].innerHTML = Number(document.getElementById('D').value);
-    tableData[5].innerHTML = Number(document.getElementById('AI').value);
-    tableData[6].innerHTML = Number(document.getElementById('J').value);
-    var per = [Number(document.getElementById('N').value) + Number(document.getElementById('D').value) + Number(document.getElementById('AI').value) + Number(document.getElementById('J').value)] / 400;
+    tableData[1].innerHTML = document.getElementById('n')['value'];
+    tableData[2].innerHTML = Number(document.getElementById('a')['value']);
+    tableData[3].innerHTML = Number(document.getElementById('N')['value']);
+    tableData[4].innerHTML = Number(document.getElementById('D')['value']);
+    tableData[5].innerHTML = Number(document.getElementById('AI')['value']);
+    tableData[6].innerHTML = Number(document.getElementById('J')['value']);
+    var per = [Number(document.getElementById('N')['value']) + Number(document.getElementById('D')['value']) + Number(document.getElementById('AI')['value']) + Number(document.getElementById('J')['value'])] / 400;
     per = per * 100;
     tableData[7].innerHTML = per + "%";
 }
