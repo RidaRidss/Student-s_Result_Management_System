@@ -1,2 +1,1 @@
- #Student 's Results Management System using Typescript
-     
+# Student 's Results Management System using Typescript
